@@ -38,7 +38,7 @@ nav ul li a {
     background-image: url('https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/482253168_956904413212747_2553973471302941659_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEO7O2DzKSnVK4BrwIXK77pTCkpHnSAqetMKSkedICp62Pd8TDYkdvfeVT7YL3HcT8EO_v92NtI4OJ2lAYf3FY3&_nc_ohc=RiZyXAK-r9wQ7kNvgHJJZEo&_nc_oc=AdmYbzjtLq0UhW73XCpJyhS-EwKpOI3FfTyY86HbYkyMc_95fsWPkiYsLvsfFIQCsng&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=dVMnnwn3zqH3qTe9SVDE8A&oh=00_AYEIfp24MSS1X5Z_ZX4wvV93ANmL_sGwRh9-24jaNPfJ0Q&oe=67E6D3FD'); /* Replace with your image */
     background-size: cover;
     background-position: center;
-    height: 50vh; /* 50% of the screen height */
+    height: 30vh; /* 50% of the screen height */
     display: flex;
     align-items: center;
     justify-content: center;
