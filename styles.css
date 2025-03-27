@@ -35,7 +35,7 @@ nav ul li a {
 
 /* Hero Section */
 .hero {
-    background-image: url('https://scontent.fgbe3-1.fna.fbcdn.net/v/t39.30808-6/480442803_948548847381637_3702203370321147774_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGm77LXPi2G2pWd7KocmUDYnKfGajK0TH6cp8ZqMrRMfq1uP1rLB8VevLUvmVT04igoda3JKb7zhyhQ46cI78CC&_nc_ohc=TsdeBt5HrJQQ7kNvgFWBLcO&_nc_oc=AdnL4DLzXZrOnhsHSPubzZsOkLh_t8_T83zaG4_iOoVKlmoMdn5CVbyodOi1IQreFPU&_nc_zt=23&_nc_ht=scontent.fgbe3-1.fna&_nc_gid=F9Aa6VhM7YLsy_T-VM0U8Q&oh=00_AYG-PNccCZTjj4ZDhDGlqr7o-LMzHTVUlRIN2syn_RDidg&oe=67EB0A7D'); /* Replace with your image */
+    background-image: url('https://scontent.fgbe3-1.fna.fbcdn.net/v/t39.30808-6/481666114_956904739879381_1286894290224901627_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHbaW2xCGFZU8j81K_0cdCBhdlvkXTMcVWF2W-RdMxxVdcNatY3QfNBWowCIZob2SwYF_XMd6WVRVrkDlanComA&_nc_ohc=Gn80IVW44xYQ7kNvgF3PTmv&_nc_oc=AdnhenWqBeHVlx1_c8fbsXdPP0BmAjccu5Afv4HQCqkJEmC6Z0VuUy2jtCcy_MVj0NI&_nc_zt=23&_nc_ht=scontent.fgbe3-1.fna&_nc_gid=Nc3MSvftpVoxvQxeWZsgUA&oh=00_AYHWyU7s75KFvdk4bIa_5zTjKCxoVrzh_V_TOagWHIBXLw&oe=67EB0905'); /* Replace with your image */
     background-size: cover;
     background-position: center;
     height: 100vh; /* 100% of the screen height */
