@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gaff Inc. | Gallerry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gaff Inc. | Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Image Gallery</h1>
+    <div class="gallery">
+        <img src="https://scontent.fgbe4-1.fna.fbcdn.net/v/t39.30808-6/480476723_946230724280116_2334653443332765307_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeESd798TPSQe_1ntKuS9617MswyHnyEgWAyzDIefISBYIe1DN3JL3XiOzw5jGLr6iV2cDjN0hKIBQdzRMDsJoN1&_nc_ohc=8wMfosBrMD4Q7kNvwGUjlGl&_nc_oc=AdmiSTO-9BKuBBB0xrZzafgj6szK9NWrG0yvRbSKOftZRF-7IVhAI9uf4uNhdVHR20o&_nc_zt=23&_nc_ht=scontent.fgbe4-1.fna&_nc_gid=ch5mijSfefzNy2ltpv-wJA&oh=00_AfEOHiVm5LV-pCHRBm1WuMS3TzvIrfh3LObnh-pmIMS3Sw&oe=681ED938" alt="Image 1">
+        <img src="https://scontent.fgbe4-1.fna.fbcdn.net/v/t39.30808-6/473063974_948135367411024_8326418499462744373_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3a1ebe&_nc_eui2=AeGefNFST78I2iXcx2wUUw19ggj0LX_13y-CCPQtf_XfLx53IQBKJP5_5AvfrTNfq01xUptIARb5xdJKXRNFJEIo&_nc_ohc=_YJLTWlBo0gQ7kNvwFH5QGr&_nc_oc=AdmTyqEDdQ1lMhiLaZskNRriT8MQS_6c0fk6Pha66uhEnoMr-qEC7a24NuAwPNQ-Q00&_nc_zt=23&_nc_ht=scontent.fgbe4-1.fna&_nc_gid=i4aSg0G0lcWm75BO_LKL0Q&oh=00_AfEhYRsz55HZiWbs0nF9lG4Xbd-BrrgcMWnIGi2lzFuxuA&oe=681ECE88" alt="Image 2">
+        <img src="https://scontent.fgbe4-1.fna.fbcdn.net/v/t39.30808-6/480568181_948596790710176_1212878854232246299_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFv47zBkAvi2yUUC-wM3j_vecRzoqVEnpx5xHOipUSenKhDpFqjsh0bb90opCL2ox1At9QRmi-By40ESNSinnPi&_nc_ohc=dN1HiGRnmDMQ7kNvwGaO9ML&_nc_oc=AdkUsc9k35kVdYWCrPA10NTQ99fgKwoX994R-n5VN5Iokw9BQpQhJ8RyK94o1COdDiA&_nc_zt=23&_nc_ht=scontent.fgbe4-1.fna&_nc_gid=HMfTCq-jaXOF8BOQZ5QOYQ&oh=00_AfFZIpyvCWHM4vW6byW4f6LAGEICIp098k9YBT7Pl1C-2g&oe=681EB6D6" alt="Image 3">
+        <img src="https://scontent.fgbe4-1.fna.fbcdn.net/v/t39.30808-6/482031333_956901716546350_6543433096639437950_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEkRkgenU_iErvA13vrxT6Tc_plPGquJ3pz-mU8aq4neuaUDByOZOIfxS9k8Z009hW2SmrZXIaixHLAGTArgJ-s&_nc_ohc=OMR-xYaex_gQ7kNvwFkBi4j&_nc_oc=AdlqM3tHF2do47wY9dAv2rFM0KQXaoEwLHBbFJNS9JNfiueLKvS1PQddicKYdMRi2C4&_nc_zt=23&_nc_ht=scontent.fgbe4-1.fna&_nc_gid=qiz1yX8X_fuvt7ctJxc0Zw&oh=00_AfHfqgAM_2kMZb4WI86uHL38WG4mBYqupKafS3EXZiZAUw&oe=681EDB4E" alt="Image 4">
+        <img src="https://scontent.fgbe4-1.fna.fbcdn.net/v/t39.30808-6/489608030_982530277316827_8036827735942644121_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGZD9GEZJF30fQTQXxzA-mU_b8C8DuC1GL9vwLwO4LUYswZYHXJ4xS0EVWPpHXWDyA5mzomGart_rWfPkudLDnc&_nc_ohc=ufNt2W07dwAQ7kNvwFJ5Ve6&_nc_oc=Adm28XOwVCtnfSgn-L9muM1wI3NQarhfAdWNzPkxMP8aYsdElKVaInryvQBYT4mMbPw&_nc_zt=23&_nc_ht=scontent.fgbe4-1.fna&_nc_gid=yMg3G_VnJA7rnZYbpYno-Q&oh=00_AfF-HmFGXDA8BCL9-XT6JlkIT6HvSh0SON3VP9lLDIp9Vw&oe=681ED5D3" alt="Image 5">
+        <img src="https://scontent.fgbe4-1.fna.fbcdn.net/v/t39.30808-6/480395108_945547187681803_5035773048519606319_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHhiwhgL3KSU1q74faJpxuBRgn5W9YFzYdGCflb1gXNh0-NalDdRJWWjE0yps5b54qybInkS3FpwXbrecThV2C5&_nc_ohc=F3ggLtBxwwUQ7kNvwFh-5H9&_nc_oc=AdkXcYVqmWApxZ0ZD8xFm3TWEhW8qLHteCkTCIqfC452Vi1s_Y_kRPI2oL3lRN0waQY&_nc_zt=23&_nc_ht=scontent.fgbe4-1.fna&_nc_gid=w6reLqu3SgdVJm0JfgCgLg&oh=00_AfGxs0qzmzCT-7oGkT41_6nhbderlcC1PxxoLxwtUZ9phw&oe=681ED406" alt="Image 6">
+        <img src="https://scontent.fgbe4-1.fna.fbcdn.net/v/t39.30808-6/480447112_945539097682612_3538843665005388606_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFKdACvuf2MwiAHRHOOWWy8Xf0pKZ2TmeZd_SkpnZOZ5rznF0bcv-QFZxiUvyhaLWlkpjq7iJOwT_wjiCoJxmJO&_nc_ohc=hu1w4wW-3nMQ7kNvwHltkzU&_nc_oc=AdnyFoBcUIdhGc1MbaqQU74rrSOOMG9b1NEA9-F1WmXb8hfvG8_rEABhCuXhqp-A_24&_nc_zt=23&_nc_ht=scontent.fgbe4-1.fna&_nc_gid=9i3UWbW-fgo4Mkf0auk5VQ&oh=00_AfG916Zran-lh9K26a9DNCLpVJl33zKJ398BuW2BV1iKEQ&oe=681ED8D8" alt="Image 7">
+        <img src="image4.jpg" alt="Image 8">
+        <img src="image4.jpg" alt="Image 9">
+        <img src="image4.jpg" alt="Image 10">
+        <img src="image4.jpg" alt="Image 11">
+        <img src="image4.jpg" alt="Image 12">
+        <img src="image4.jpg" alt="Image 13">
+        <img src="image4.jpg" alt="Image 14">
+        <img src="image4.jpg" alt="Image 15">
+    </div>
+</body>
+</html>
