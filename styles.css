@@ -12,8 +12,8 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    left: 0;
     z-index: 1000;
+    justify-content: center;
 }
 
 nav ul {
@@ -26,7 +26,7 @@ nav ul {
 nav ul li {
     margin: 0 15px;
 }
-.main{
+.main-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,12 +88,4 @@ nav ul li a {
 
 .btn:hover {
     background: #cc5500;
-}
-.main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
 }
