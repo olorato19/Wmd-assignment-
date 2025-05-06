@@ -89,7 +89,7 @@ nav ul li a {
 .btn:hover {
     background: #cc5500;
 }
-.main {
+.main-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
