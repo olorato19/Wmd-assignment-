@@ -33,14 +33,12 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* Hero Section */
 .hero {
     background-image: url('https://z-p3-scontent.fgbe4-1.fna.fbcdn.net/v/t39.30808-6/481338822_956904503212738_1486235466414701954_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeG8CmgbgSNmKlSQA_6fokC9UG3lnMDlVqxQbeWcwOVWrCsNLy3Kn2liPoPL5L9g_W7hSOOTl_EiLmFnbH5uN72X&_nc_ohc=_IVVXkIBxgAQ7kNvwFCYg46&_nc_oc=AdnCBu7gMuRy7HIGwLL4mlXPyFpx-_8CVAmAuKNmERhNlG0pUJEPh2iU0HP6H97Q9Qo&_nc_zt=23&_nc_ht=z-p3-scontent.fgbe4-1.fna&_nc_gid=Ze01Bd7ZlFox92j_1FD9CQ&oh=00_AfGi_27vmH0gSZC-ldnXhlNY1_2tYfCyXkdlWStZomgkDQ&oe=681AA94C'); /* Replace with your image */
     background-size: inherit;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh; 
-    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
