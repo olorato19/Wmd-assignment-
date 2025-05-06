@@ -26,7 +26,14 @@ nav ul {
 nav ul li {
     margin: 0 15px;
 }
-
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -81,4 +88,12 @@ nav ul li a {
 
 .btn:hover {
     background: #cc5500;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
