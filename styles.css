@@ -93,4 +93,5 @@ nav ul li a {
     background: #cc5500;
 }
 .container {
-    margin: 50px
+    position: relative;
+    top: 80px;
