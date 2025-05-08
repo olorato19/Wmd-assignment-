@@ -94,5 +94,8 @@ nav ul li a {
 }
 .container {
     position: relative;
-    margin-top: 150px;
-    
+    top: 150px;
+}
+.gallery {
+    top: 70px;
+}
