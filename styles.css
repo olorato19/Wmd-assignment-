@@ -31,7 +31,7 @@ nav ul li {
 .main-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: normal;
     align-items: center;
     text-align: center;
     min-height: 100vh;
@@ -94,4 +94,5 @@ nav ul li a {
 }
 .container {
     position: relative;
-    top: 80px;
+    margin-top: 80px;
+    
