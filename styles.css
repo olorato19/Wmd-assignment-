@@ -96,10 +96,13 @@ nav ul li a {
     position: relative;
     top: 150px;
 }
-.gallery {
-    top: 70px;
-}
-h1 {
+.gallery-title {
     position: relative;
-    top: 70px
+    top: 70px;
+    justify-content: center;
 }
+ .shop-title {
+     position: relative;
+    top: 70px;
+    justify-content: center;
+ }
