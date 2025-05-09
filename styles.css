@@ -101,8 +101,18 @@ nav ul li a {
     top: 70px;
     justify-content: center;
 }
+.gallery {
+    position: relative;
+    top: 70px;
+    justify-content: center;
+    
  .shop-title {
      position: relative;
     top: 70px;
     justify-content: center;
  }
+.category {
+    position: relative;
+    top: 70px;
+    justify-content: center;
+}
