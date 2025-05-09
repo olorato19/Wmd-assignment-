@@ -28,6 +28,7 @@ nav ul {
 nav ul li {
     margin: 0 15px;
 }
+
 .main-content {
     display: flex;
     flex-direction: column;
@@ -38,6 +39,7 @@ nav ul li {
     margin-top: 100px;
     
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -101,18 +103,42 @@ nav ul li a {
     top: 70px;
     justify-content: center;
 }
+
 .gallery {
     position: relative;
     top: 70px;
     justify-content: center;
+}
     
  .shop-title {
      position: relative;
     top: 70px;
     justify-content: center;
- }
+}
+
 .category {
     position: relative;
     top: 70px;
     justify-content: center;
+}
+
+.contact-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+    
+.contact-info {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: #ff6600;
+    text-decoration: none;
+}
+    
+.contact-info a:hover {
+    text-decoration: underline;
 }
