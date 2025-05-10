@@ -101,19 +101,26 @@ nav ul li a {
 .gallery-title {
     position: relative;
     top: 70px;
-    justify-content: center;
+    text-align: center;
 }
 
-.gallery {
-    position: relative;
+.gallery { 
+    position: relative
+    display: flex;
     top: 70px;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+        
+.gallery img {
+            width: 200px;
+            height: auto;
 }
     
- .shop-title {
-     position: relative;
+.shop-title {
+    position: relative;
     top: 70px;
-    justify-content: center;
+    text-align: center;
 }
 
 .category {
