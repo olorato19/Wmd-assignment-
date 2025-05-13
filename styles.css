@@ -36,6 +36,7 @@ nav ul li {
     align-items: center;
     text-align: center;
     min-height: 100vh;
+    max-width: 100vh;
     margin-top: 100px;
     
 }
