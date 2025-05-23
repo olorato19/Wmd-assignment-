@@ -52,6 +52,7 @@ nav ul li a {
     background-size: inherit;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: black;
     height: 100vh; 
     display: flex;
     align-items: center;
