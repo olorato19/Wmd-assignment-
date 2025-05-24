@@ -32,8 +32,9 @@ nav ul li {
 .main-content {
     display: flex;
     flex-direction: column;
-    justify-content: normal;
-    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     min-height: 100vh;
     max-width: 100vh;
     margin-top: 100px;
