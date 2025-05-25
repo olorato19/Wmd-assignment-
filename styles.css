@@ -5,6 +5,13 @@ body {
     padding: 0;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
+
 /* Navigation Bar */
 header {
     background-color: #333;
