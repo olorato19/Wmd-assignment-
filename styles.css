@@ -17,7 +17,7 @@ header {
     display: flex;
     align-items: center;
 }
-
+@media (max-width: 768px) {
 nav ul {
     list-style: none;
     display: flex;
@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 15px 0;
 }
 
 .main-content {
@@ -51,10 +51,10 @@ nav ul li a {
 
 .hero {
     background-image: url('https://github.com/olorato19/Wmd-assignment-/blob/main/images/474948752_931797305723458_7613246906291621305_n.jpg?raw=true'); /* Replace with your image */
-    background-size: inherit;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; 
+    height: auto; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,8 +116,9 @@ nav ul li a {
 }
         
 .gallery img {
-            width: 200px;
-            height: auto;
+    width: 100%;
+     max-width: 200px;
+     height: auto;
 }
     
 .shop-title {
