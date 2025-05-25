@@ -4,14 +4,19 @@ body {
     margin: 0;
     padding: 0;
 }
-
+@media (max-width: 768px) {
 .menu-toggle {
     display: none;
     font-size: 26px;
     color: white;
     cursor: pointer;
 }
-
+    .menu-toggle {
+    display: none;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
 /* Navigation Bar */
 header {
     background-color: #333;
