@@ -1,42 +1,54 @@
-// Wait for the DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", function () {
-  // Select the form using its ID
   const form = document.getElementById("feedbackForm");
 
-  // Add a submit event listener
   form.addEventListener("submit", function (e) {
-    // Get values from input fields
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
     const message = document.getElementById("message").value.trim();
 
-    // Basic validation
     if (name === "" || email === "" || message === "") {
       alert("Please fill in all fields.");
-      e.preventDefault(); // Stop form from submitting
+      e.preventDefault();
       return;
     }
 
-    // Validate email format
     if (!validateEmail(email)) {
       alert("Please enter a valid email address.");
       e.preventDefault();
       return;
     }
 
-    // Optionally: Confirm submission
-    alert("Thank you for your feedback!");
+    // Submit with Formspree
+    const formData = new FormData(form);
+    fetch("https://formspree.io/f/YOUR_FORM_ID", {
+      method: "POST",
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(response => {
+      if (response.ok) {
+        alert("Thank you for your feedback!");
+        form.reset();
+      } else {
+        alert("There was a problem submitting your feedback. Please try again.");
+      }
+    })
+    .catch(error => {
+      console.error("Submission error:", error);
+      alert("Something went wrong. Please try again later.");
+    });
+
+    e.preventDefault(); // Prevent default submission
   });
 
-  // Simple email format validation using regex
   function validateEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email);
   }
-});
 
-const toggle = document.getElementById('menu-toggle');
-const navLinks = document.getElementById('nav-links');
-       toggle.addEventListener('click', () => {
-            navLinks.classList.toggle('show');
-        });
+  const toggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+});
