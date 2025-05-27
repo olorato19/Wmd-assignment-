@@ -42,8 +42,8 @@ nav ul li {
     min-height: 100vh;
     max-width: fit-content;
     margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 200px;  
+    margin-left: 100px;
+    margin-right: 100px;  
 }
 
 .main-content h3 {
