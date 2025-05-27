@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Submit with Formspree
     const formData = new FormData(form);
-    fetch("https://formspree.io/f/YOUR_FORM_ID", {
+    fetch("https://formspree.io/f/mblonrza", {
       method: "POST",
       body: formData,
       headers: { 'Accept': 'application/json' }
