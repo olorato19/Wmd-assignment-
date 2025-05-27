@@ -38,13 +38,12 @@ nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: normal;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
     min-height: 100vh;
     max-width: fit-content;
     margin-top: 100px;
-    margin-left: 70px;
-    margin-right: 70px;  
+    margin-left: 200px;
+    margin-right: 200px;  
 }
 
 .main-content h3 {
