@@ -142,6 +142,10 @@ nav ul li a {
      max-width: 200px;
      height: auto;
 }
+
+.gallery-page {
+    background-color: #BDBCBC;
+}
     
 .shop-title {
     position: relative;
