@@ -10,6 +10,15 @@ body {
     color: white;
     cursor: pointer;
 }
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 28px;
+  font-weight: normal;
+  color: #000;
+}
+
 /* Navigation Bar */
 header {
     background-color: #333;
