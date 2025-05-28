@@ -136,6 +136,7 @@ nav ul li a {
     top: 90px;
     flex-wrap: wrap;
     gap: 15px;
+    margin-left: 40px;
 }
         
 .gallery img {
@@ -182,7 +183,7 @@ nav ul li a {
     text-decoration: underline;
 }
 footer {
-    background: #ffffff;
+    background: #BDBCBC;;
     color: #333333;
     text-align: center;
     padding: 20px;
