@@ -125,16 +125,16 @@ nav ul li a {
 }
 .gallery-title {
     position: relative;
-    top: 70px;
+    top: 90px;
     text-align: center;
 }
 
 .gallery { 
     position: relative;
     display: flex;
-    top: 70px;
+    top: 90px;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
 }
         
 .gallery img {
